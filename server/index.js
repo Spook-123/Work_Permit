@@ -18,13 +18,13 @@ database.connect();
 
 // Deployment
 
-// app.use(
-//   cors({
-//     origin: [""],
-//     methods: ["POST", "GET"],
-//     credentials: true,
-//   })
-// );
+app.use(
+  cors({
+    origin: [""],
+    methods: ["POST", "GET"],
+    credentials: true,
+  })
+);
 
 //middleware
 app.use(express.json());
