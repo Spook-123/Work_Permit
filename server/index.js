@@ -16,6 +16,16 @@ const PORT = process.env.PORT || 4000;
 //database connect
 database.connect();
 
+// Deployment
+
+// app.use(
+//   cors({
+//     origin: [""],
+//     methods: ["POST", "GET"],
+//     credentials: true,
+//   })
+// );
+
 //middleware
 app.use(express.json());
 app.use(
